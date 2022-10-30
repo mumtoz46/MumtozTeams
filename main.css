@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
 }
+.bek_fotter{
+    background-color: rgba(20, 20, 20, 1);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 85%;
+    grid-template-rows: 85%;
+    justify-content: center;
+    padding: 93px 0px;
+}
+.bek_fotter_min{
+  
+}
+.bek_box_noi{
+    color: rgba(102, 102, 102, 1);
+    font-size: 15px;
+    display: flex;
+    gap: 20px;
+
+}
