@@ -137,6 +137,46 @@ text-decoration: none;
 
 }
 .mshcontent img{
-    width: 80%;
+    width: 100%;
          box-shadow: 3px 3px 3px black;
+}
+body {
+    animation: colorch 3s infinite alternate linear;
+}
+@keyframes colorch {
+    0% {
+        background-color: rgb(0, 255, 8);
+    }
+    25% {
+        background-color: aquamarine;
+    }
+    50% {
+        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    }
+    75% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: purple;
+    }
+}
+::-webkit-scrollbar {
+    width: 15px;
+    
+}
+::-webkit-scrollbar-button {
+    background-color: green;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+    background-color: blue;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: red;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(185, 9, 9);
 }
